@@ -1,14 +1,14 @@
 package com.ohgiraffers.ch01.section01.xml;
 
-import com.ohgiraffers.ch01.HelloServlet;
 import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-public class LifeCycleTestServlet extends HelloServlet {
+public class LifeCycleTestServlet extends HttpServlet {
     // 각 메소드마다 호출 횟수를 카운트 할 목적의 필드
     private int initCount = 1;
     private int serviceCount = 1;
