@@ -21,5 +21,8 @@
 <br/>
 <%-- <a>: 다른 페이지로 이동할 수 있게 링크를 걸어주는 기능 (href를 이용해 링크 적용) --%>
 <a href="xml-lifecycle">라이프 사이클 테스트(xml)</a>
+
+
+<a href="annotation-lifecycle">라이프 사이클 테스트(annotation)</a>
 </body>
 </html>
